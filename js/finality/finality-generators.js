@@ -38,7 +38,7 @@ let FinalityGenerator = function (i) {
     },
     multiplier() {
       return Decimal.pow(this.perPurchaseMultiplier(), this.bought()).times(
-        Achievements.generatorMultiplier()).times(Finalities.finalityGeneratorMultiplier());
+        Achievements.generatorMultiplier()).times(Finalities.finalityGeneratorMultiplier()).times(GameWins.multiplier());
     },
     productionPerSecond() {
       return this.amount().times(this.multiplier());
