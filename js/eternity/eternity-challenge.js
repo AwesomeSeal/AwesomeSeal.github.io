@@ -499,7 +499,7 @@ let EternityChallenge = {
     return player.stats.timeSinceAutoECCompletion;
   },
   autoECCompletionTime() {
-    return 1 / (1 / Complexities.autoECCompletionTime() + 1 / Finalities.autoECCompletionTime());
+    return 1 / ((1 / Complexities.autoECCompletionTime() + 1 / Finalities.autoECCompletionTime()) / GameWins.amount());
   },
   autoECFromComplexities() {
     return Complexities.autoECCompletionTime() !== Infinity;
