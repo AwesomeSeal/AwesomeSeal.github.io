@@ -623,7 +623,7 @@ let Powers = {
     return PowerUpgrade(1).effect();
   },
   speed() {
-    return PowerUpgrade(2).effect() * Achievements.otherMultiplier() * FinalityShardUpgrade(6).effect() * GameWins.amount();
+    return PowerUpgrade(2).effect() * Achievements.otherMultiplier() * FinalityShardUpgrade(6).effect() * GameWins.amount() ** 2;
   },
   minimumRarity() {
     return PowerUpgrade(3).effect();
