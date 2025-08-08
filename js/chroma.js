@@ -47,7 +47,7 @@ let Chroma = {
     let factors = [
       this.effectOfColor(3), Achievements.otherMultiplier(), EternityChallenge.getTotalCompletionsRewardEffect(4),
       Study(16).effect(), Complexities.chromaMultiplier(), ComplexityAchievements.effect(2, 3),
-      FinalityShardUpgrade(4).effect(), GameWins.amount()
+      FinalityShardUpgrade(4).effect(), GameWins.amount() ** 2
     ];
     return factors.reduce((a, b) => a.times(b));
   },
