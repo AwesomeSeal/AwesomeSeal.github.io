@@ -453,7 +453,7 @@ let initialPlayer = {
       smallerHeader: false,
     },
     complexityChallengeRunningColors: false,
-    exitComplexityChallengesOnComplexity: false,
+    exitComplexityChallengesOnComplexity: true,
     news: false,
     optionTypeShown: 'saving',
     autobuyers: {
