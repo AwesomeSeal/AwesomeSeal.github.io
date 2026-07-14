@@ -24,10 +24,10 @@ function initialAutobuyers() {
     {isOn: true, mode: 'Buy max'}, {isOn: true, mode: 'Buy max'},
     {isOn: true, mode: 'Buy max'}, {isOn: true, mode: 'Buy max'},
     {isOn: true, mode: 'Buy max'}, {isOn: true, mode: 'Buy max'},
-    {isOn: true, mode: 'Buy max'}, {isOn: true, mode: 'Multiplier', priority: new Decimal(2)},
-    {isOn: true, mode: 'Multiplier', priority: new Decimal(2)},
-    {isOn: true, mode: 'Amount', priority: new Decimal(2)}, {isOn: true, mode: 'Amount', priority: new Decimal(2)},
-    {isOn: true, mode: 'X times last', priority: new Decimal(2)}, {isOn: false, mode: 'Amount', priority: new Decimal(2)},
+    {isOn: true, mode: 'Buy max'}, {isOn: true, mode: 'Time since possible', priority: new Decimal(0.1)},
+    {isOn: true, mode: 'Time since possible', priority: new Decimal(0.1)},
+    {isOn: true, mode: 'Time past peak log/sec', priority: new Decimal(1)}, {isOn: false, mode: 'Time past peak log/sec', priority: new Decimal(2)},
+    {isOn: true, mode: 'X times last', priority: new Decimal(2)}, {isOn: false, mode: 'Fraction of peak log/sec', priority: new Decimal(0.8)},
     {isOn: true, mode: 'none', priority: 'none'}
   ];
 }
