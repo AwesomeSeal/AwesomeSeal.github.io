@@ -409,7 +409,7 @@ let initialPlayer = {
     exportCopy: true,
     exportDownload: false,
     exportShow: false,
-    exportNotificationFrequency: Math.pow(2, 16),
+    exportNotificationFrequency: 0,
     loadMode: 'Prompt',
     theme: {
       background: 'Dark',
