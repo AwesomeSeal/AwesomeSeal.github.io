@@ -369,9 +369,9 @@ let initialPlayer = {
     offlineTicks: 1024,
     hotkeys: true,
     colorChange: 'None',
-    completionColors: 'On (gradient)',
-    resetColors: true,
-    tabColors: true,
+    completionColors: 'Off',
+    resetColors: false,
+    tabColors: false,
     presetHighlightColors: false,
     adjustColors: true,
     colorData: {
@@ -433,7 +433,7 @@ let initialPlayer = {
       complexityAchievements: true
     },
     largerCheckboxes: false,
-    buttonOutlines: 'None',
+    buttonOutlines: 'Gold',
     viewAllGenerators: {
       normal: true,
       infinity: false,
@@ -442,7 +442,7 @@ let initialPlayer = {
       finality: false,
     },
     viewGeneratorsWhenStarsAtLimit: false,
-    maxAllMode: 'Normal generators and boosts',
+    maxAllMode: 'Both',
     showAllTabs: false,
     headerSettings: {
       showCurrentChallenges: true,
