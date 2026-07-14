@@ -288,11 +288,11 @@ let initialPlayer = {
       [false, false, false, false, false, false, false, false],
       [false, false, false, false, false, false, false, false],
     ],
-    beyondHighest: 4,
+    beyondHighest: 1,
     active: true,
-    requirementDescriptions: true,
-    showFullyFarRows: true,
-    showCompletedRows: true
+    requirementDescriptions: false,
+    showFullyFarRows: false,
+    showCompletedRows: false
   },
   displayAllGoals: false,
   showGoalTimes: false,
