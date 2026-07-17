@@ -1153,7 +1153,7 @@ function updateDisplaySaveLoadSetup() {
 function updateDisplay() {
   Cache.clearDisplayCaches();
   tickMap = {};
-  if (shouldUpdate("e0")) {let v = format(Stars.amount()); if (e[0].textContent !== v) {e[0].textContent = v};}; e[3245].textContent = GameWins.multiplier();
+  if (shouldUpdate("e0")) {let v = format(Stars.amount()); if (e[0].textContent !== v) {e[0].textContent = v};}; e[3245].textContent = GameWins.amount();
   if (shouldUpdate("e1")) {let v = ChallengeHeaderText.getText(); if (e[1].textContent !== v) {e[1].textContent = v};};
   if (shouldUpdate("e2")) {let v = FastResetText.getText('infinity', false); if (e[2].textContent !== v) {e[2].textContent = v};};
   if (shouldUpdate("e3")) {let v = Challenge.challengeText(); if (e[3].textContent !== v) {e[3].textContent = v};};
